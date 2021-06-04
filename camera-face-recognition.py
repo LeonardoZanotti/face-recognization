@@ -22,6 +22,7 @@ def detectAndDisplay(frame):
             radius = int(round((w2 + h2) * 0.25))
             frame = cv.circle(face_color, eye_center, radius, (255, 0, 0), 4)
     cv.imshow('Capture - Face detection', frame)
+    cv.imwrite('./webcam.png', frame)
 
 
 # Here, im using IP Webcam mobile app to run the camera device, you can use your notebook camera
