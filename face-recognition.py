@@ -6,7 +6,7 @@ face_classifier = cv.CascadeClassifier(cv.data.haarcascades +
 eye_classifier = cv.CascadeClassifier(cv.data.haarcascades +
                                       'haarcascade_eye.xml')
 
-image = cv.imread('./img/img7.png')
+image = cv.imread('./img/img1.png')
 
 image_gray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
 
