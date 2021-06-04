@@ -34,6 +34,8 @@ To run the program, just do:
 $ python3.7 face-recognition.py
 ```
 
+You can selet other images to test, i let some in the `img` folder. You can also play with the values of the functions, configure it another way trying to get better results.
+
 ## References
 [OpenCV documentation](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html)
 
